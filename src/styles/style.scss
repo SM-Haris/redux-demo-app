@@ -1,0 +1,49 @@
+.home-page {
+  h1 {
+    color: #ffffff;
+  }
+
+  &__modalButtonA {
+    background-color: #46139f;
+    margin-right: 20px;
+  }
+
+  &__modalButtonB {
+    background-color: #ff7f50;
+  }
+}
+
+.contact-modal {
+  &__modalButtonA {
+    background-color: #46139f;
+  }
+
+  &__modalButtonB {
+    background-color: #ff7f50;
+  }
+
+  &__closeButton {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #46139f;
+  }
+
+  &__scrollBar {
+    width: 100%;
+    height: 270px;
+  }
+
+  &__listContainer {
+    height: 300px;
+    margin-top: 10px;
+  }
+
+  &__contactCard {
+    margin-top: 10px;
+  }
+
+  h6 {
+    margin-top: 7px;
+    margin-bottom: 0px;
+  }
+}
